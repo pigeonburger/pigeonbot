@@ -1,6 +1,6 @@
 # PigeonBot - Moderator Bot for Discord
 # By pigeonburger
-# https://github.com/pygeonburger
+# https://github.com/pigeonburger
 
 import discord, asyncio, datetime, json, decimal, random, configparser, traceback, sys, os # why the hell does so much stuff need to be imported
 from discord.ext import commands # cow spelled backwards is woc

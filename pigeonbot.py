@@ -274,6 +274,7 @@ async def ban(ctx, member: discord.Member):
 
 
 @client.command(name='kick', help='Kick a user (Mods only)')
+@commands.has_role(mod_role)
 async def kick(ctx, member: discord.Member):
     global reaction
     role_ids = []
